@@ -17655,4 +17655,28 @@ fieldset:disabled .btn-group-vertical > .btn {
   text-transform: uppercase;
 }
 
+.section-margin {
+  margin-bottom: 8rem;
+}
+@media (max-width: 1399.98px) {
+  .section-margin {
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  .section-margin {
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .section-margin {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .section-margin {
+    margin-bottom: 3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
