@@ -17779,12 +17779,25 @@ fieldset:disabled .btn-group-vertical > .btn {
 }
 
 .years__list {
+  position: relative;
+  z-index: 1;
   list-style: none;
   max-width: 760px;
   margin: 0 auto;
   padding: 1rem 0 1rem 4rem;
 }
+.years__list::before {
+  content: "";
+  position: absolute;
+  top: 2.25rem;
+  bottom: 4rem;
+  left: 5.25rem;
+  width: 1px;
+  background-color: #e0e0e0;
+}
 .years__item {
+  position: relative;
+  z-index: 2;
   display: grid;
   grid-template-columns: 4rem 1fr;
   column-gap: 2rem;
