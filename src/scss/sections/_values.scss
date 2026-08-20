@@ -1,0 +1,37 @@
+// =================================
+//   What I Want to Become
+// =================================
+
+.values {
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+
+    text-align: center;
+  }
+
+  &__number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $text-accent;
+    line-height: 1;
+  }
+
+  &__title {
+    @include subtitle();
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    @include text();
+    margin-bottom: 0;
+  }
+}
