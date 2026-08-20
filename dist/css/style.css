@@ -17838,6 +17838,19 @@ fieldset:disabled .btn-group-vertical > .btn {
   line-height: 1.6;
   margin-bottom: 0;
 }
+@media (max-width: 575.98px) {
+  .years__list {
+    padding-left: 3rem;
+  }
+  .years__list::before {
+    left: 4.25rem;
+    bottom: 5rem;
+  }
+  .years__item {
+    grid-template-columns: 2.5rem 1fr;
+    column-gap: 1.5rem;
+  }
+}
 
 .section-margin {
   margin-bottom: 8rem;
