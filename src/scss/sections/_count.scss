@@ -1,0 +1,61 @@
+// =================================
+//   Make it Count
+// =================================
+
+.count {
+  background-color: $bg-accent;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+
+  &__content {
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+    margin: 0 auto;
+  }
+
+  &__title {
+    @include title();
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__divider {
+    width: 4rem;
+    height: 2px;
+    background-color: $text-accent;
+  }
+
+  &__text {
+    @include custom-text(
+      $font-family: $font-text,
+      $font-weight: 500,
+      $font-size: 1.35rem,
+      $color: $text-primary,
+      $line-height: 1.5
+    );
+
+    text-align: center;
+    margin-bottom: 0;
+
+    &--primary {
+      font-weight: 600;
+    }
+  }
+
+  &__metadata {
+    color: $text-muted;
+    font-family: $font-text;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
