@@ -17778,6 +17778,53 @@ fieldset:disabled .btn-group-vertical > .btn {
   margin-bottom: 0;
 }
 
+.years__list {
+  list-style: none;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 4rem;
+}
+.years__item {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  column-gap: 2rem;
+  padding-bottom: 3rem;
+}
+.years__item:last-child {
+  padding-bottom: 0;
+}
+.years__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #e1f5fe;
+  color: #6200ea;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.years__content {
+  padding-top: 0.25rem;
+}
+.years__title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #4b5563;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+.years__text {
+  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
 .section-margin {
   margin-bottom: 8rem;
 }
