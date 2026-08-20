@@ -17817,6 +17817,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   color: #6200ea;
   font-size: 1rem;
   font-weight: 700;
+  font-variant-numeric: tabular-nums;
 }
 .years__content {
   padding-top: 0.25rem;
