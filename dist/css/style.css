@@ -17712,6 +17712,11 @@ fieldset:disabled .btn-group-vertical > .btn {
   margin-bottom: 0;
 }
 
+.years__intro {
+  max-width: 42rem;
+  margin-inline: auto;
+  text-align: center;
+}
 .years__list {
   position: relative;
   z-index: 1;

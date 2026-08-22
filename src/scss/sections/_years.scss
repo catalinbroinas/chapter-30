@@ -3,6 +3,12 @@
 // =================================
 
 .years {
+  &__intro {
+    max-width: 42rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
   &__list {
     position: relative;
     z-index: 1;
